@@ -2,18 +2,46 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedel Spaw</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iskierka – Spawamy z charakterem</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <img src="images/banner.jpg" alt="Wedel Spaw" class="banner">
-        <footer>
-            <p>Kontakt: <a href="mailto:kontakt@wedelspaw.pl">kontakt@wedelspaw.pl</a> | Tel: 123 456 789</p>
-            <p>ul. Przemysłowa 10, 00-123 Miasto</p>
-        </footer>
+  <header>
+    <img src="dog-welder.png" alt="Iskierka logo" class="logo">
+    <h1>Spawamy <br><span>z charakterem!</span></h1>
+    <a href="#oferta" class="btn">OFERTA</a>
+  </header>
+
+  <section id="oferta">
+    <h2>Oferta</h2>
+    <ul class="oferta-lista">
+      <li>TIG</li>
+      <li>MIG/MAG</li>
+      <li>Stal nierdzewna</li>
+      <li>Usługi mobilne</li>
+    </ul>
+  </section>
+
+  <section id="onas">
+    <h2>O nas</h2>
+    <p>Specjalizujemy się w precyzyjnym spawaniu TIG i MIG/MAG, szczególnie stali nierdzewnej. Działamy mobilnie i z doświadczeniem.</p>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <form>
+      <input type="text" placeholder="Imię i nazwisko" required>
+      <input type="email" placeholder="E-mail" required>
+      <textarea placeholder="Wiadomość" required></textarea>
+      <button type="submit">WYŚLIJ</button>
+    </form>
+    <div class="dane">
+      <p>Tel: 123 456 789</p>
+      <p>Email: kontakt@wedelspaw.pl</p>
+      <p>Adres: ul. Przemysłowa 10, 00-123 Miasto</p>
     </div>
+  </section>
 </body>
 </html>

@@ -1,23 +1,88 @@
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #fdf6e3;
-    color: #333;
-    text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff6e6;
+  margin: 0;
+  padding: 0;
+  color: #1c1c1c;
 }
-.container {
-    padding: 20px;
+
+header {
+  text-align: center;
+  padding: 40px 20px;
 }
-.banner {
-    max-width: 100%;
-    height: auto;
+
+.logo {
+  max-width: 120px;
 }
-footer {
-    margin-top: 20px;
-    font-size: 14px;
+
+h1 {
+  font-size: 2.2em;
+  margin: 10px 0;
 }
-a {
-    color: #d35400;
-    text-decoration: none;
+
+h1 span {
+  color: #0a0a0a;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f89b29;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.oferta-lista {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.oferta-lista li {
+  background: #fff;
+  padding: 10px;
+  border-left: 5px solid #f89b29;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #f89b29;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.dane {
+  margin-top: 20px;
+  font-size: 0.95em;
 }
